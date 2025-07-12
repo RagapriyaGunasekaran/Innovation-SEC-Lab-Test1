@@ -1,0 +1,51 @@
+/* About Me Section */
+#about {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  /* Card Layout */
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Ensuring spacing between cards */
+  .mb-4 {
+    margin-bottom: 1.5rem !important; /* Extra spacing between cards */
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .card-body {
+      padding: 20px;
+    }
+  
+    .card-title {
+      font-size: 1.25rem;
+    }
+  
+    .card-text {
+      font-size: 1rem;
+    }
+  }
+  
