@@ -66,37 +66,39 @@
           <li class="nav-item">
             <a class="nav-link" href="#projects">Projects</a>
           </li>
+          <!-- LinkedIn Section Link in Navbar -->
+          <li class="nav-item">
+            <a class="nav-link" href="#linkedin">
+             <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </li>
+
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          <!-- LinkedIn Icon Link -->
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.linkedin.com/in/yourprofile" target="_blank">
-              <i class="fab fa-linkedin"></i> LinkedIn
-            </a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  
-  <section id="home" class="hero">
-    <div class="container">
-      <h1 class="display-4">Hello, I'm Raga Priya. G</h1>
-      <p class="lead">A passionatn btn-ligte web developer focused on creating modern, user-friendly websites.</p>
-      <a href="#contact" class="btn btn-outline-secondary " >Contact Me</a>
+  <section id="home" class="hero" style="background-color: #5a6268; height: 75vh;">
+  <div class="container h-100 d-flex justify-content-center align-items-center text-white">
+    <div class="text-center">
+      <h1 class="display-4 mb-3">Hello, I'm Raga Priya. G</h1>
+      <p class="lead mb-4">A passionate web developer focused on creating modern, user-friendly websites.</p>
+      <a href="#contact" class="btn btn-light" class="custom-outline-btn">Contact Me</a>
     </div>
-  </section>
+  </div>
+</section>
 
-  
-  <section id="about" class="container my-5">
+ 
+<section id="about" class="container my-5">
     <h2 class="section-title">About Me</h2>
     <div class="row">
         <!-- Card 1 -->
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img src="./" class="card-img-top" alt="Image 1">
+        <div class="col-md-4 mb-4 d-flex">
+            <div class="card h-100 w-100">
+                <img src="./frontend.png" class="card-img-top" alt="Image 1">
                 <div class="card-body">
                     <h5 class="card-title">Front-End Developer</h5>
                     <p class="card-text">I specialize in building modern, responsive websites using HTML, CSS, and JavaScript. Passionate about creating beautiful and functional user interfaces.</p>
@@ -104,9 +106,9 @@
             </div>
         </div>
         <!-- Card 2 -->
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Image 2">
+        <div class="col-md-4 mb-4 d-flex">
+            <div class="card h-100 w-100">
+                <img src="./React.png" class="card-img-top" alt="Image 2">
                 <div class="card-body">
                     <h5 class="card-title">React Developer</h5>
                     <p class="card-text">Experienced in developing interactive web applications with React. I focus on creating seamless, dynamic user experiences that are also efficient.</p>
@@ -114,9 +116,9 @@
             </div>
         </div>
         <!-- Card 3 -->
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Image 3">
+        <div class="col-md-4 mb-4 d-flex">
+            <div class="card h-100 w-100">
+                <img src="./continuouslearning.png" class="card-img-top" alt="Image 3">
                 <div class="card-body">
                     <h5 class="card-title">Continuous Learner</h5>
                     <p class="card-text">I am always striving to improve my skills by learning new technologies and methodologies. I am committed to growth and the ever-changing tech landscape.</p>
@@ -127,108 +129,207 @@
 </section>
 
 
+        
+        
 
-  <section id="skills" class="bg-light py-5">
-    <div class="container">
-      <h2 class="section-title">My Skills</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <h4>Front-End</h4>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4>Back-End</h4>
-          <ul>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>MongoDB</li>
-            <li>SQL</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4>Tools</h4>
-          <ul>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>VS Code</li>
-            <li>Figma</li>
-          </ul>
+<section id="skills" class="bg-light py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">My Skills</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+
+      <!-- Card 1 -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow skill-card px-3 py-4" style="background-color: #f1f3f5;">
+          <div class="card-body text-center">
+            <h4 class="card-title text-primary mb-3">Front-End</h4>
+            <p class="card-text">
+              Proficient in HTML, CSS, JavaScript, and React for building responsive and dynamic user interfaces.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="container my-5">
-    <h2 class="section-title">Projects</h2>
-    <div class="row">
+      <!-- Card 2 -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow skill-card px-3 py-4" style="background-color: #f1f3f5;">
+          <div class="card-body text-center">
+            <h4 class="card-title text-primary mb-3">Back-End</h4>
+            <p class="card-text">
+              Skilled in Node.js, Express.js, MongoDB, and SQL for building robust and scalable server-side applications.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow skill-card px-3 py-4" style="background-color: #f1f3f5;">
+          <div class="card-body text-center">
+            <h4 class="card-title text-primary mb-3">Tools</h4>
+            <p class="card-text">
+              Experienced with Git, GitHub, VS Code, and Figma for effective version control and UI/UX collaboration.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col">
+        <div class="card h-100 border-0 shadow skill-card px-3 py-4" style="background-color: #f1f3f5;">
+          <div class="card-body text-center">
+            <h4 class="card-title text-primary mb-3">Other Skills</h4>
+            <p class="card-text">
+              Strong understanding of REST APIs, responsive design, debugging techniques, and problem-solving strategies.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+ <section id="skills-summary" class="d-flex align-items-center justify-content-center" style="background-color: #f7f9fb; padding: 80px 0;">
+  <div class="container text-center">
+    <h2 class="section-title mb-5">Bringing Skills to Life</h2>
+    <p class="lead text-muted">
+      I don't just know tools—I use them to craft meaningful user experiences and solve real-world problems with clean, efficient code.
+    </p>
+  </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="d-flex align-items-center py-5" style="background-color: #f1f1f1; min-height: 75vh;">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">Projects</h2>
+
+    <div class="d-flex justify-content-center flex-wrap gap-4">
       <!-- Project 1 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 1">
-          <div class="card-body">
-            <h5 class="card-title">Project 1</h5>
-            <p class="card-text">A brief description of the project goes here. This could be a web app, a mobile app, or any other software development project you worked on.</p>
-            <a href="#" class="btn btn-primary">View Project</a>
-          </div>
+      <div class="card border-0 shadow text-center px-4 py-4" style="width: 47%; background-color: #ffffff;">
+        <div class="card-body d-flex flex-column justify-content-center" style="height: 100%;">
+          <h5 class="card-title mb-3">Portfolio Website</h5>
+          <p class="card-text mb-0">Personal site to show my work.</p>
         </div>
       </div>
+
       <!-- Project 2 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 2">
-          <div class="card-body">
-            <h5 class="card-title">Project 2</h5>
-            <p class="card-text">A brief description of the project goes here. This could be a web app, a mobile app, or any other software development project you worked on.</p>
-            <a href="#" class="btn btn-primary">View Project</a>
-          </div>
-        </div>
-      </div>
-      <!-- Project 3 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 3">
-          <div class="card-body">
-            <h5 class="card-title">Project 3</h5>
-            <p class="card-text">A brief description of the project goes here. This could be a web app, a mobile app, or any other software development project you worked on.</p>
-            <a href="#" class="btn btn-primary">View Project</a>
-          </div>
+      <div class="card border-0 shadow text-center px-4 py-4" style="width: 47%; background-color: #ffffff;">
+        <div class="card-body d-flex flex-column justify-content-center" style="height: 100%;">
+          <h5 class="card-title mb-3">Task Tracker App</h5>
+          <p class="card-text mb-0">Tracks daily tasks efficiently.</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="bg-dark text-white py-5">
-    <div class="container">
-      <h2 class="section-title">Contact Me</h2>
-      <form>
-        <div class="mb-3">
+
+<!-- LinkedIn Section -->
+<section id="linkedin" class="d-flex align-items-center py-5" style="background-color: #ffffff; min-height: 75vh;">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">Connect on LinkedIn</h2>
+
+    <div class="d-flex justify-content-center flex-wrap gap-4">
+      <!-- Card 1 -->
+      <div class="card border-0 shadow text-center px-4 py-4" style="width: 47%;">
+        <div class="card-body d-flex flex-column justify-content-center">
+          <h5 class="card-title mb-3">Why LinkedIn?</h5>
+          <p class="card-text mb-0">
+            LinkedIn helps me grow professionally by connecting with peers and showcasing my career journey.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 2 (with external link) -->
+      <div class="card border-0 shadow text-center px-4 py-4" style="width: 47%;">
+        <div class="card-body d-flex flex-column justify-content-center">
+          <h5 class="card-title mb-3">Visit My Profile</h5>
+          <p class="card-text mb-0">
+            View more on: <br>
+            <a href="https://www.linkedin.com/in/RagapriyaGunasekaran" target="_blank" style="text-decoration: none; color: #0077b5;">
+              linkedin.com/in/RagapriyaGunasekaran
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Contact Section -->
+<section id="contact" class="py-5" style="background-color: #f1f1f1;">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">Contact Me</h2>
+    <form>
+      <div class="row mb-3">
+        <div class="col-md-6 mb-3 mb-md-0">
           <label for="name" class="form-label">Your Name</label>
           <input type="text" class="form-control" id="name" placeholder="Your Name">
         </div>
-        <div class="mb-3">
+        <div class="col-md-6">
           <label for="email" class="form-label">Your Email</label>
           <input type="email" class="form-control" id="email" placeholder="Your Email">
         </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Message</label>
-          <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <label for="phone" class="form-label">Phone No</label>
+          <input type="text" class="form-control" id="phone" placeholder="Your Phone Number">
         </div>
-        <button type="submit" class="btn btn-primary">Send Message</button>
-      </form>
+        <div class="col-md-6">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Subject">
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary px-4">Send Message</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Get in Touch Section -->
+<section class="py-5" style="background-color: #ffffff; min-height: 60vh; display: flex; align-items: center;">
+  <div class="container text-center">
+    <h2 class="mb-4">Get in Touch</h2>
+    <p class="mb-5">Feel free to reach out via email or follow me on Instagram.</p>
+
+    <div class="d-flex flex-column align-items-center gap-4">
+      <div>
+        <h5>Email</h5>
+        <p>ragapriya006@gmail.com</p>
+      </div>
+      <div>
+        <h5>Phone</h5>
+        <p>+91 98765 43210</p>
+      </div>
+      <div>
+        <h5>Follow Me</h5>
+        <p>
+          <a href="https://www.instagram.com/_.rxgx_priyX._" target="_blank" style="text-decoration: none; color: inherit;">
+            @__.Ragaviii
+          </a>
+        </p>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 [Your Name]. All Rights Reserved.</p>
-  </footer>
 
-  <!-- Bootstrap JS, Popper.js, and jQuery -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap JS, Popper.js, and jQuery (optional if not already included) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
